@@ -19,8 +19,8 @@ No Windows:
 - Na cliente LAN, utilize os comandos para verificar a conexão com o Gateway e com o Roteador do LDS
 
 ``` sh
-    ping 213.145.0.1
-    ping 192.168.133.1
+    tracert 213.145.0.1
+    tracert 192.168.133.1
 ```
 
 ## Teste de NAT
@@ -28,7 +28,7 @@ No Windows:
 - No cliente LAN, tente acessar a internet:
 
 ``` sh
-    ping 8.8.8.8
+    tracert 8.8.8.8
 ```
 
 - No Gateway, veja as regra do pf em ação:
